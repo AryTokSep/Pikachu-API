@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  text-align: center;
+}
+
+.getPokemon h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+button {
+  width: 70px;
+  height: 35px;
+  background-color: rgb(216, 185, 46);
+  border-color: transparent;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: rgb(228, 219, 169);
+  cursor: pointer;
+}
+
+.container {
+  position: relative;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 10px;
+  text-align: center;
+  padding: 0 auto;
+  margin: 0 auto;
+  background-color: #ad8610;
+}
+
+.nomor,
+.nama,
+.ability {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: white;
+}
